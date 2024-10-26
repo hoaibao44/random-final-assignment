@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anua</title>
-</head>
-<body>
-    <p>Homepage</p>
-    <a href="/serum.html">
-        to Serum
-    </a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anua</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-white text-gray-900">
+        <header class="fixed top-0 left-0 right-0 z-50 bg-white">
+            <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold">ANUA</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="h-[250px] mt-[60px] flex items-center justify-center">
+                <div class="text-center">
+                    <h1 class="text-6xl font-bold mb-4">Skincare for all</h1>
+                    <p class="text-xl mb-8">Discover the power of simple, effective skincare.</p>
+                </div>
+            </section>
+
+            <section class="container mx-auto px-4 py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <a href="/1-can-bang-da.html">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="aspect-square relative">
+                                <img src="/static/nuoc-can-bang-anua.png" alt="Product 1" class="absolute inset-0 w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold line-clamp-2 h-[56px]">Nước Cân Bằng Anua 77% Heartleaf Soothing Toner</h3>
+                                <p class="text-gray-600 mt-1">365.000 ₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/2-sua-rua-mat.html">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="aspect-square relative">
+                                <img src="/static/sua-rua-mat.jpg" alt="Product 1" class="absolute inset-0 w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold line-clamp-2 h-[56px]">Sữa Rửa Mặt cho da dầu mụn chiết xuất từ Diếp Cá: Anua Heartleaf Quercetinol Pore Deep Cleanding Foam</h3>
+                                <p class="text-gray-600 mt-1">220.000 ₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/3-serum.html">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="aspect-square relative">
+                                <img src="/static/serum.png" alt="Product 1" class="absolute inset-0 w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold line-clamp-2 h-[56px]">Anua Peach 70 Niacin Serum - Bí quyết cho làn da sáng bừng đầy sức sống từ đào tươi</h3>
+                                <p class="text-gray-600 mt-1">360.000 ₫</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+    </body>
 </html>
